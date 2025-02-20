@@ -5,7 +5,7 @@ body {
     font-style: normal; 
     color: #ffff;
     background-color: #000000;
-    margin-top: 15px;
+    margin-top: 25px;
 }
 
 h1, 
@@ -56,3 +56,16 @@ a:active {
     text-decoration: none;
 }
 
+svg {
+    outline: none;
+    transition: fill 0.7s ease;
+    fill: #000000;; 
+    stroke: #fff;  
+}
+
+svg:hover {
+    fill: #ff0000;
+}
+
+svg:focus {
+}

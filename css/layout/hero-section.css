@@ -12,8 +12,15 @@
     /* min-width: 720px; */
 }
 
+.main-title {
+}
+
 .main-subtitle {
     text-transform: uppercase;
+}
+
+.span {
+    color: red;
 }
 
 /* @media screen and (max-width: 767px) {

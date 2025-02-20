@@ -1,0 +1,26 @@
+.footer-block {
+    background-color: #0000;
+}
+
+.footer-maintext {
+    color: #ffff;
+}
+
+.decorate-item {
+    color: red;
+}
+
+.footer-subtext {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 100;
+}
+
+/* SVG  */
+
+@media screen and (min-width: 768px) {
+}
+
+@media screen and (min-width: 1158px) {
+
+}
