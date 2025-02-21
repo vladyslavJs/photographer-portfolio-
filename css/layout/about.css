@@ -3,32 +3,32 @@
   flex-direction: column; 
   align-items: flex-end;
   padding-top: 25px;
-}
+} 
 
 .about-information {
-  max-width: 600px;
+  max-width: 1200px;
   width: 100%;
-  /* font-style: italic; */
   font-size: 16px; 
 }
 
 .about-title {
+  font-family: "Alura", serif;
   margin-bottom: 15px;
-  color: #FF0000;
+  color: #808080;
+  font-style: italic;
+  font-weight:600;
+  letter-spacing: 1px;
 }
-
-.span-world {
-  color: #FF0000;
-  font-weight: 600;
-}
-
-
 
 .about-information {
   font-weight: 100;
-}
+  letter-spacing: -1px;
+  margin-bottom: 15px;
+} 
+
 
 @media screen and (min-width: 768px) {
+  
 }
 
 @media screen and (min-width: 1158px) {
