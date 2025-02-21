@@ -28,7 +28,7 @@
     <title>Photographer</title>
   </head>
   <body>
-    <header>
+    <header class="header">
       <!-- верхня частина -->
       <div class="main-container container">
         <nav class="nav">
@@ -36,24 +36,61 @@
             <li><a href="#home">Home</a></li>
             <li><a href="#portfolio">Portfolio</a></li>
             <li><a href="#photobooks">Photobooks</a></li>
-            <li><a href="#portraits">Portraits</a></li>
             <li><a href="#contact">Contact</a></li>
             <li><a href="#price">Price</a></li>
           </ul>
         </nav>
+        <address>
+          <div>
+            <ul class="adress-info">
+              <li class="adress-alignment">
+                <svg class="phone-svg" width="25" height="25">
+                  <use href="images/sprite.svg#icon-phone"></use>
+                </svg>
+                <a href="tel:+380123456789">+380 12 345 67 89</a>
+              </li>
+              <li class="adress-alignment">
+                <svg class="mail-svg" width="25" height="25">
+                  <use href="images/sprite.svg#icon-mail"></use>
+                </svg>
+                <a href="mailto:info@example.com">info@example.com</a>
+              </li>
+            </ul>
+          </div>
+        </address>
       </div>
     </header>
+
     <main>
       <section class="main-menu section">
         <div class="container">
           <h1 class="main-title">Iryna Ihnatenko<span class="span">.</span></h1>
           <p class="main-subtitle">Photographer</p>
         </div>
+        <div class="">
+          <ul class="socail-media">
+            <li>
+              <svg class="brand-instagram" width="45" height="45">
+                <use href="images/sprite.svg#icon-instagram"></use>
+              </svg>
+            </li>
+            <li>
+              <svg class="brand-telegram" width="45" height="45">
+                <use href="images/sprite.svg#icon-telegram"></use>
+              </svg>
+            </li>
+            <li>
+              <svg class="brand-whatsapp" width="45" height="45">
+                <use href="images/sprite.svg#icon-whatsapp"></use>
+              </svg>
+            </li>
+          </ul>
+        </div>
       </section>
 
       <section class="about" id="about">
         <div class="about-container container">
-          <h2 class="about-title">About me.</h2>
+          <h2 class="about-title">A few word about me.</h2>
           <p class="about-information">
             Привіт! Мене звати Іра, мені 26, і фотографія – це не просто моя
             робота, а справжня пристрасть. Я обожнюю ловити емоції, гру світла і
@@ -66,8 +103,58 @@
         </div>
       </section>
 
+      <!-- <section class="about-section">
+        <div class="about-container container">
+          <div class="about-image"></div>
+          <div class="image-container">
+            <img
+              class="about-image"
+              src="./images/background_images/background.jpeg"
+              alt="Іконка"
+            />
+          </div>
+
+          <div class="about-text">
+            <h2>A few words</h2>
+            <p>
+              Привіт! Мене звати Іра, мені 26, і фотографія – це не просто моя
+              робота, а справжня пристрасть. Я обожнюю ловити емоції, гру світла
+              і тіні, створювати кадри, які розповідають історії. Для мене кожна
+              зйомка – це особливий процес, у якому я намагаюся передати красу
+              моменту та унікальність кожної людини. Творчість – це моє життя, і
+              я завжди у пошуках нових ідей та натхнення. Давайте створимо щось
+              красиве!
+            </p>
+          </div>
+        </div>
+      </section> -->
+
       <section class="text-section" id="text-section">
         <div class="text-history container">
+          <p class="about-information">
+            Привіт! Мене звати Іра, мені 26, і фотографія – це не просто моя
+            робота, а справжня пристрасть. Я обожнюю ловити емоції, гру світла і
+            тіні, створювати кадри, які розповідають історії. Для мене кожна
+            зйомка – це особливий процес, у якому я намагаюся передати красу
+            моменту та унікальність кожної людини. Творчість – це моє життя, і я
+            завжди у пошуках нових ідей та натхнення. Давайте створимо щось
+            красиве <span class="span-world">разом</span>!
+          </p>
+          <img
+            class="images-history"
+            src="./images/background_images/background.jpeg"
+            alt="Іконка"
+          />
+        </div>
+      </section>
+
+      <section class="text-section" id="text-section">
+        <div class="text-history container">
+          <img
+            class="images-history"
+            src="./images/background_images/background.jpeg"
+            alt="Іконка"
+          />
           <p class="text-text">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi
             harum ad perferendis eos sunt nisi aliquam doloribus culpa. Minima
@@ -86,36 +173,43 @@
             rerum qui quis cum, porro eos harum vel fuga quam obcaecati quo
             nobis eveniet eius. Nostrum, soluta minus!
           </p>
-          <img src="./images/background_images/background.jpeg" alt="Іконка" />
         </div>
       </section>
 
-      <section class="slider-section">
-        <h2>PORTFOLIO</h2>
+      <div class="decorative-line"></div>
+
+      <section class="slider-section container">
+        <h2 class="main-portfolio">PORTFOLIO</h2>
         <div class="slider">
           <div class="slider-item">
-            <img
-              src="./images/background_images/background.jpeg"
-              alt="Photo 1"
-            />
+            <img src="./images/background_images/1.JPG" alt="Photo 1" />
           </div>
           <div class="slider-item">
-            <img
-              src="./images/background_images/background.jpg"
-              alt="Photo 2"
-            />
+            <img src="./images/background_images/2.JPG" alt="Photo 2" />
           </div>
           <div class="slider-item">
-            <img
-              src="./images/background_images/background.jpeg"
-              alt="Photo 3"
-            />
+            <img src="./images/background_images/3.JPG" alt="Photo 3" />
           </div>
           <div class="slider-item">
-            <img
-              src="./images/background_images/background.jpg"
-              alt="Photo 4"
-            />
+            <img src="./images/background_images/4.JPG" alt="Photo 4" />
+          </div>
+          <div class="slider-item">
+            <img src="./images/background_images/5.JPG" alt="Photo 4" />
+          </div>
+          <div class="slider-item">
+            <img src="./images/background_images/6.JPG" alt="Photo 4" />
+          </div>
+          <div class="slider-item">
+            <img src="./images/background_images/7.JPG" alt="Photo 4" />
+          </div>
+          <div class="slider-item">
+            <img src="./images/background_images/8.JPG" alt="Photo 4" />
+          </div>
+          <div class="slider-item">
+            <img src="./images/background_images/9.JPG" alt="Photo 4" />
+          </div>
+          <div class="slider-item">
+            <img src="./images/background_images/10.JPG" alt="Photo 4" />
           </div>
         </div>
       </section>
