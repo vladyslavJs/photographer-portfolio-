@@ -1,7 +1,15 @@
-.slider-section {
-    padding: 40px;
-
+.decorative-line {
+    width: 80%;
+    height: 4px;
+    background-color: #333;
+    border-radius: 2px;
+    margin: 20px auto;
 }
+
+/* .slider-section {
+    padding: 40px;
+} */
+
 
 .slider {
     display: flex;
@@ -28,6 +36,13 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+.main-portfolio {
+    font-size: 36px;
+    /* text-align: center; */
+    letter-spacing: 2px;
+    color: #808080;
 }
 
 @media (min-width: 768px) {
