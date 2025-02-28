@@ -1,0 +1,26 @@
+.next-history {
+    display: flex;
+    align-items: stretch;
+    gap: 25px;
+}
+
+.next-text {
+    flex: 0%;
+    max-width: 800px;
+    font-size: 16px;
+}
+
+.images-next {
+    width: 100%;
+    max-width: 600px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+@media screen and (min-width: 768px) {
+    
+}
+
+@media screen and (min-width: 1158px) {
+}
