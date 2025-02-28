@@ -1,31 +1,26 @@
-    .text-history {
-        display: flex;
-        align-items: stretch;
-        gap: 20px;
-    }
+.text-section {
+    margin-bottom: 25px;
+}
 
-    .text-text {
-        flex: 1;
-        max-width: 600px;
-        font-size: 16px;
-    }
+.text-history {
+    display: flex;
+    align-items: stretch;
+    gap: 20px;
+}
 
-    .image-container {
-        max-width: 50%;
-        /* Встановлює максимальну ширину контейнера */
-        overflow: hidden;
-        /* Сховає все, що виходить за межі контейнера */
-    }
+.text-text {
+    flex: 1;
+    max-width: 600px;
+    font-size: 16px;
+}
 
-    .images-history {
-        /* width: 100%; */
-        /* Зображення займає всю ширину контейнера */
-        height: 20%;
-        /* Зберігає пропорції зображення */
-        object-fit: cover;
-        /* Запобігає спотворенню, обрізає зайве */
-
-    }
+.images-history {
+    width: 100%;
+    max-width: 800px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 12px;
+}
 
 @media (max-width: 768px) {
 
