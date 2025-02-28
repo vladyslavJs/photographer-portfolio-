@@ -1,23 +1,17 @@
 .about-container {
   display: flex;
   flex-direction: column; 
-  align-items: flex-end;
+  align-items: flex-start;
   padding-top: 25px;
+  margin-bottom: 15px;
 } 
-
-.about-information {
-  max-width: 1200px;
-  width: 100%;
-  font-size: 16px; 
-}
 
 .about-title {
   font-family: "Alura", serif;
-  margin-bottom: 15px;
-  color: #808080;
-  font-style: italic;
   font-weight:600;
   letter-spacing: 1px;
+  text-transform: uppercase;
+  padding: 35px;
 }
 
 .about-information {
