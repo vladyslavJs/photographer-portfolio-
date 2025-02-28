@@ -1,14 +1,14 @@
 .about-container {
   display: flex;
-  flex-direction: column; 
+  flex-direction: column;
   align-items: flex-start;
   padding-top: 25px;
   margin-bottom: 15px;
-} 
+}
 
 .about-title {
   font-family: "Alura", serif;
-  font-weight:600;
+  font-weight: 600;
   letter-spacing: 1px;
   text-transform: uppercase;
   padding: 35px;
@@ -16,14 +16,11 @@
 
 .about-information {
   font-weight: 100;
-  letter-spacing: -1px;
   margin-bottom: 15px;
-} 
-
-
-@media screen and (min-width: 768px) {
-  
 }
+
+
+@media screen and (min-width: 768px) {}
 
 @media screen and (min-width: 1158px) {
   .about-title {
