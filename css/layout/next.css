@@ -4,11 +4,44 @@
     gap: 25px;
 }
 
+.text-content {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+}
+
+.cost-information {
+    border: 1px solid white;
+    padding: 10px;
+}
+
+/* ----------- */
+
+.cost-class {
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
 .next-text {
     flex: 0%;
     max-width: 800px;
-    font-size: 16px;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 200;
+    text-align: justify;
 }
+
+.shoot-list {
+    list-style-type: disc;
+    padding: 16px;
+    font-weight: 200;
+}
+
+.individual-title {
+    font-size: 22px;
+    margin: 35px 0 0 0;
+}
+
 
 .images-next {
     width: 100%;
