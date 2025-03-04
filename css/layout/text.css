@@ -4,24 +4,56 @@
 
 .text-history {
     display: flex;
-    align-items: stretch;
+    align-items: flex-start;
     gap: 20px;
+
 }
 
-.text-text {
-    flex: 1;
+.text-content {
+    display: flex;
+    flex-direction: column;
+    /* Розташовуємо текст один під одним */
     max-width: 600px;
-    font-size: 16px;
 }
 
 .images-history {
     width: 100%;
-    max-width: 800px;
-    height: 500px;
+    max-width: 500px;
+    height: 600px;
     object-fit: cover;
     border-radius: 12px;
 }
 
-@media (max-width: 768px) {
 
+
+.text-information-text {
+    font-size: 14px;
+    border: 1px solid white;
+    padding: 12px;
+}
+
+.text-information,
+.text-information-text {
+    font-weight: 100;
+    margin-bottom: 55px;
+    text-align: justify;
+}
+
+/* 📱 Медіа-запит для мобільних */
+@media (max-width: 768px) {
+    .text-history {
+        flex-direction: column;
+        align-items: center;
+        /* Центруємо контент */
+        text-align: center;
+    }
+
+    .images-history {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .text-content {
+        max-width: 100%;
+    }
 }
