@@ -7,11 +7,11 @@
 }
 
 .about-title {
-  font-family: "Alura", serif;
+  letter-spacing: 2px;
   font-weight: 600;
   letter-spacing: 1px;
   text-transform: uppercase;
-  padding: 25px;
+  margin-bottom: 25px;
 }
 
 

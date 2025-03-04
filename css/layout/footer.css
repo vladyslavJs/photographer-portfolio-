@@ -31,7 +31,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    text-align: justify;
 }
 
 
@@ -39,7 +39,6 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
 }
 
 .footer-title {
@@ -48,7 +47,6 @@
 
 .footer-social {
     display: flex;
-    justify-content: center;
     align-items: center;
     gap: 16px;
 }
@@ -76,7 +74,7 @@
     }
 
     .footer-text {
-        max-width: 400px;
+        max-width: 300px;
     }
 
 }
