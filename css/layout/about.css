@@ -2,8 +2,8 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding-top: 25px;
-  margin-bottom: 15px;
+  /* padding-top: 25px;
+  margin-bottom: 15px; */
 }
 
 .about-title {
@@ -11,12 +11,7 @@
   font-weight: 600;
   letter-spacing: 1px;
   text-transform: uppercase;
-  padding: 35px;
-}
-
-.about-information {
-  font-weight: 100;
-  margin-bottom: 15px;
+  padding: 25px;
 }
 
 
