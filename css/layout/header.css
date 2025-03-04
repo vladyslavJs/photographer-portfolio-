@@ -10,7 +10,7 @@ header {
     left: 0;
     right: 0;
     background-color: #000;
-    color:#fff;
+    color: #fff;
     font-weight: 600;
 }
 
@@ -23,9 +23,10 @@ header {
 }
 
 .nav-menu {
-    display: flex; 
-    justify-content: center; 
-    gap: 3.5rem;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    font-weight: 600;
 }
 
 .adress-info {
@@ -33,12 +34,14 @@ header {
     gap: 30px;
     justify-content: space-between;
     font-size: 14px;
+    font-weight: 200;
 }
 
 .adress-alignment {
     display: flex;
     align-items: center;
 }
+
 
 /* -------------- */
 
@@ -51,16 +54,9 @@ header {
 }
 
 .nav-menu a:hover {
-    background-color: #d50000; 
+    background-color: #d50000;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {}
 
-}
-
-@media screen and (min-width: 1158px) {
-
-}
-
-
-
+@media screen and (min-width: 1158px) {}
