@@ -4,11 +4,11 @@
     gap: 25px;
 }
 
-.text-content {
+/* .next-content {
     display: flex;
     flex-direction: column;
     max-width: 600px;
-}
+} */
 
 .cost-information {
     border: 1px solid white;
