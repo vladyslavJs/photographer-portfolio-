@@ -1,0 +1,64 @@
+.my-vision-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.vision-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+}
+
+.images-vision {
+    width: 100%;
+    max-width: 500px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.frame-text {
+    border: 1px solid white;
+    padding: 12px;
+}
+
+.vision-biography-text,
+.vision-philosophy-text {
+    font-size: 14px;
+    font-weight: 100;
+    margin: 18px auto;
+    text-align: justify;
+    font-size: 12px;
+}
+
+/* 📱 Медіа-запит для мобільних */
+@media screen and (min-width: 768px) {
+    .my-vision-container {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: row;
+        gap: 20px;
+    }
+}
+
+@media screen and (min-width: 1158px) {
+    .my-vision-container {
+        gap: 30px;
+    }
+
+    .vision-container {
+        max-width: 600px;
+    }
+
+    .vision-biography-text {
+        font-size: 16px;
+    }
+
+    .vision-philosophy-text {
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+}
