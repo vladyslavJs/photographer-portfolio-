@@ -19,21 +19,28 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap" rel="stylesheet">
 
-  <link rel="stylesheet" href="css/index.css?v=2.0" />
-  <script src="script.js?v=2.0"></script>
-
   <title>Photographer</title>
+
+  <link rel="stylesheet" href="css/index.css?v=2.0" />
+  <script src="/script.js" defer></script>
+
 </head>
 
 <body>
-  <header class="header">
+  <header class="page-header">
     <!-- верхня частина -->
-    <div class="main-container container">
+    <div class="container page-header-container">
       <nav class="nav">
+        <a class="logotype" href="./index.html">
+          iryna
+          <span class="logotype-span">ihnatenko</span>
+          <svg class="logotype-icon" width="20" height="20" aria-label="logotype icon">
+            <use href="images/sprite.svg#icon-camera"></use>
+          </svg>
+        </a>
         <ul class="nav-menu">
           <li><a href="#home">Home</a></li>
           <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#photobooks">Photobooks</a></li>
           <li><a href="#contact">Contact</a></li>
           <li><a href="#price">Price</a></li>
         </ul>
@@ -42,26 +49,76 @@
         <div>
           <ul class="adress-info">
             <li class="adress-alignment">
-              <svg class="phone-svg" width="25" height="25">
+              <svg class="phone-svg" width="20" height="20">
                 <use href="images/sprite.svg#icon-phone"></use>
               </svg>
-              <a href="tel:+380123456789">+380 12 345 67 89</a>
+              <a href="tel:+380123456789">+48 123 456 789</a>
             </li>
             <li class="adress-alignment">
-              <svg class="mail-svg" width="25" height="25">
+              <svg class="mail-svg" width="20" height="20">
                 <use href="images/sprite.svg#icon-mail"></use>
               </svg>
-              <a href="ira.2017.ignatenko@gmail.com">ira.2017.ignatenko@gmail.com</a>
+              <a href="mailto:ira.2017.ignatenko@gmail.comira.2017.ignatenko@gmail.com">ira.2017.ignatenko@gmail.com</a>
             </li>
           </ul>
         </div>
       </address>
+
+      <!-- burger icon -->
+      <button class="open-mobile-menu-btn">
+        <svg class="burger-icon" width="25" height="25" aria-label="mobile menu icon">
+          <use href="images/sprite.svg#icon-menu"></use>
+        </svg>
+      </button>
+    </div>
+    <!-- mobile-menu -->
+    <div class="mobile-menu" id="mobile-menu">
+      <div class="mobile-menu-container">
+        <button class="mobile-menu-close-btn" id="mobile-menu-close-btn">
+          <svg class="mobile-menu-close-icon" width="25" height="25">
+            <use href="images/sprite.svg#icon-close"></use>
+          </svg>
+        </button>
+        <nav class="nav-menu-mobile">
+          <ul class="nav-list-mobile">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#photobooks">Photobooks</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#price">Price</a></li>
+          </ul>
+        </nav>
+        <ul class="nav-social-mobile">
+          <li>
+            <a class="nav-social-link" href="https://www.instagram.com/ihnatenko._i?igsh=MXR2ODd6empndzR1OA==">
+              <svg class="nav-social-icon" width="25" height="25">
+                <use href="images/sprite.svg#icon-instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a class="nav-social-link" href="">
+              <svg class="nav-social-icon" width="25" height="25">
+                <use href="images/sprite.svg#icon-telegram"></use>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a class="nav-social-link" href="">
+              <svg class="nav-social-icon" width="25" height="25">
+                <use href="images/sprite.svg#icon-whatsapp"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+        <p class="nav-text">Write to me!</p>
+      </div>
     </div>
   </header>
 
   <main>
     <section class="main-menu section">
-      <div class="container">
+      <div class="container main-menu-container">
         <h1 class="main-title">Iryna Ihnatenko<span class="span">.</span></h1>
         <p class="main-subtitle">Photographer</p>
         <ul class="main-list">
@@ -70,152 +127,129 @@
           <li>for brands</li>
         </ul>
       </div>
-      <div class="">
-        <ul class="socail-media">
+      <div>
+        <ul class="main-location">
           <li>
-            <svg class="brand-instagram" width="35" height="35">
-              <use href="images/sprite.svg#icon-instagram"></use>
+            <svg class="icon-map" width="25" height="25">
+              <use href="images/sprite.svg#icon-map-pin"></use>
             </svg>
           </li>
-          <li>
-            <svg class="brand-telegram" width="35" height="35">
-              <use href="images/sprite.svg#icon-telegram"></use>
-            </svg>
-          </li>
-          <li>
-            <svg class="brand-whatsapp" width="35" height="35">
-              <use href="images/sprite.svg#icon-whatsapp"></use>
-            </svg>
-          </li>
+          <li>Poland,</li>
+          <li>Kraków</li>
         </ul>
       </div>
     </section>
     <div class="decorative-line"></div>
     <!-- SECTION -->
     <section class="about" id="about">
-      <div class="about-container container">
+      <div class="container about-container">
         <h2 class="about-title">A few word about me.</h2>
-        </p>
       </div>
     </section>
     <!-- SECTION -->
-    <section class="text-section" id="text-section">
-      <div class="text-history container">
-        <img class="images-history" src="./images/background_images/background.PNG" alt="Іконка" />
-        <div class="text-content">
-          <p class="text-information">
+    <section class="vision-section" id="vision-section">
+      <div class="container my-vision-container">
+        <img class="images-vision" src="./images/background_images/ira_text_section.JPG" alt="Іконка" />
+        <div class="vision-container">
+          <p class="vision-biography-text">
             Hello! My name is Ira, I'm 26, and photography is not just my job, it's a true passion. I love capturing
             emotions, the play of light and shadow, and creating shots that tell stories. For me, every photoshoot is a
             unique process where I strive to convey the beauty of the moment and the individuality of each person.
             Creativity is my life, and I am always on the lookout for new ideas and inspiration. Let's create something
             beautiful together!
           </p>
-          <p class="text-information-text">
-            PHOTOGRAPHY.
-            It gives me immense strength and opens my eyes wider with each passing day. I photograph people, and it
-            doesn't matter
-            who is standing in front of me. To come to my photoshoot, you don't need to be a model or have any
-            experience. I often
-            work with people who are seeing themselves through someone else's eyes for the first time, and this is a
-            very
-            interesting process for me.
-            With me, you will not feel discomfort or tension.
+          <p class="vision-philosophy-text frame-text">
+            Photography is my strength and inspiration. I capture people as they truly are—raw, genuine, and unmasked.
+            You don't need to be a model or have any experience; all that matters is your openness and willingness to
+            see yourself in a new light.
 
-            Our entire process will be easy and pleasant.
-            I always guide you, help you open up, and do everything to achieve powerful results.
-            The philosophy of my work is naturalness, ease, and simplicity. I capture people without masks. I photograph
-            them as
-            real, alive, and authentic as they are.
-            It's very important for me that we are close in spirit, that we see the world in similar ways, and value our
-            naturalness
-            and individuality.
+            Our session will be effortless and enjoyable—I will guide you, help you unfold, and ensure we create
+            something powerful.
+            My philosophy is rooted in authenticity, simplicity, and a shared vision of natural beauty.
+          </p>
+          <p class="vision-philosophy-text">The perfect shot is one where emotions are real—unrestrained laughter, tears
+            of joy, or quiet
+            contemplation. Age,
+            appearance, or experience are irrelevant; what matters is the connection we share.
 
-            For me, the perfect shot is when I truly believe in you. I believe that you really laughed wholeheartedly or
-            cried from
-            happiness. It doesn't matter to me what your body type is, how old you are, or whether you have experience.
-            I photograph
-            everyone who resonates with my approach and worldview.
+            If this resonates with you, I'm waiting—step into the frame!📷</p>
+        </div>
+      </div>
+    </section>
 
-            If that's you, I'm waiting for you!
-            Come and join me!
+    <div class="decorative-line"></div>
+    <!-- SECTION -->
+    <!-- <section class="next-section" id="next-section">
+    <div class="next-history container">
+      <div class="next-content">
+        <div class="cost-information">
+          <h3 class="cost-class">Cost of services</h3>
+          <p class="next-text">
+            When you come to me for a photoshoot, you seek my vision. I work in minimalist studios and choose natural
+            tones in clothing. I shoot without makeup or with minimal use of it. To achieve the best result, we
+            discuss
+            all details together, based on your preferences and my style. Your trust and willingness to collaborate at
+            all
+            stages of the shoot are extremely important
           </p>
         </div>
+        <div class="individual-text">
+          <h2 class="individual-title">Individual Photoshoot</h2>
+          <ul class="shoot-list">
+            <li>consultation before the shoot, discussion of your request, assistance with posing and location
+              selection</li>
+            <li>duration of the shoot — 1/1.5 hours</li>
+            <li>25 photos with color correction and retouching</li>
+            <li>processing time — 1-2 weeks</li>
+            <li>during the shoot, we'll manage to capture 2-3 outfits</li>
+          </ul>
+          <p>Price: 250 zł</p>
+        </div>
       </div>
-    </section>
+      <img class="images-next" src="./images/background_images/ira_about.PNG" alt="Іконка" />
+    </div>
+  </section> -->
 
     <div class="decorative-line"></div>
     <!-- SECTION -->
-    <section class="next-section" id="next-section">
-      <div class="next-history container">
-        <div class="next-content">
-          <div class="cost-information">
-            <h3 class="cost-class">Cost of services</h3>
-            <p class="next-text">
-              When you come to me for a photoshoot, you seek my vision. I work in minimalist studios and choose natural
-              tones in clothing. I shoot without makeup or with minimal use of it. To achieve the best result, we
-              discuss
-              all details together, based on your preferences and my style. Your trust and willingness to collaborate at
-              all
-              stages of the shoot are extremely important
-            </p>
-          </div>
-          <div class="individual-text">
-            <h2 class="individual-title">Individual Photoshoot</h2>
-            <ul class="shoot-list">
-              <li>consultation before the shoot, discussion of your request, assistance with posing and location
-                selection</li>
-              <li>duration of the shoot — 1/1.5 hours</li>
-              <li>25 photos with color correction and retouching</li>
-              <li>processing time — 1-2 weeks</li>
-              <li>during the shoot, we'll manage to capture 2-3 outfits</li>
-            </ul>
-            <p>Price: 250 zł</p>
-          </div>
-        </div>
-        <img class="images-next" src="./images/background_images/ira_about.PNG" alt="Іконка" />
+    <!-- <section class="slider-section container">
+    <h2 class="main-portfolio">PORTFOLIO</h2>
+    <div class="slider">
+      <div class="slider-item">
+        <img src="./images/background_images/1.JPG" alt="Photo 1" />
       </div>
-    </section>
-
+      <div class="slider-item">
+        <img src="./images/background_images/2.JPG" alt="Photo 2" />
+      </div>
+      <div class="slider-item">
+        <img src="./images/background_images/3.JPG" alt="Photo 3" />
+      </div>
+      <div class="slider-item">
+        <img src="./images/background_images/4.JPG" alt="Photo 4" />
+      </div>
+      <div class="slider-item">
+        <img src="./images/background_images/5.JPG" alt="Photo 4" />
+      </div>
+      <div class="slider-item">
+        <img src="./images/background_images/6.JPG" alt="Photo 4" />
+      </div>
+      <div class="slider-item">
+        <img src="./images/background_images/7.JPG" alt="Photo 4" />
+      </div>
+      <div class="slider-item">
+        <img src="./images/background_images/8.JPG" alt="Photo 4" />
+      </div>
+      <div class="slider-item">
+        <img src="./images/background_images/9.JPG" alt="Photo 4" />
+      </div>
+      <div class="slider-item">
+        <img src="./images/background_images/10.JPG" alt="Photo 4" />
+      </div>
+    </div>
+  </section> -->
+    <!-- </main> -->
     <div class="decorative-line"></div>
-    <!-- SECTION -->
-    <section class="slider-section container">
-      <h2 class="main-portfolio">PORTFOLIO</h2>
-      <div class="slider">
-        <div class="slider-item">
-          <img src="./images/background_images/1.JPG" alt="Photo 1" />
-        </div>
-        <div class="slider-item">
-          <img src="./images/background_images/2.JPG" alt="Photo 2" />
-        </div>
-        <div class="slider-item">
-          <img src="./images/background_images/3.JPG" alt="Photo 3" />
-        </div>
-        <div class="slider-item">
-          <img src="./images/background_images/4.JPG" alt="Photo 4" />
-        </div>
-        <div class="slider-item">
-          <img src="./images/background_images/5.JPG" alt="Photo 4" />
-        </div>
-        <div class="slider-item">
-          <img src="./images/background_images/6.JPG" alt="Photo 4" />
-        </div>
-        <div class="slider-item">
-          <img src="./images/background_images/7.JPG" alt="Photo 4" />
-        </div>
-        <div class="slider-item">
-          <img src="./images/background_images/8.JPG" alt="Photo 4" />
-        </div>
-        <div class="slider-item">
-          <img src="./images/background_images/9.JPG" alt="Photo 4" />
-        </div>
-        <div class="slider-item">
-          <img src="./images/background_images/10.JPG" alt="Photo 4" />
-        </div>
-      </div>
-    </section>
-  </main>
-  <div class="decorative-line"></div>
-
+    <!-- 
   <section class="details-section" id="details-section">
     <div class="details-container container">
       <img src="./images/background_images/ira-work.PNG" class="details-image" alt="image">
@@ -233,9 +267,9 @@
 
     <div class="decorative-line"></div>
 
-  </section>
-  <!-- SECTION -->
-  <footer class="footer-block">
+  </section> -->
+    <!-- SECTION -->
+    <!-- <footer class="footer-block">
     <div class="container footer-container">
       <div class="text-footer-container">
         <h2 class="footer-maintext">
@@ -291,7 +325,7 @@
       </div>
     </div>
     <p class="footer-subtext">&copy; 2025 Modern Web. All rights reserved.</p>
-  </footer>
+  </footer> -->
 </body>
 
 </html>
