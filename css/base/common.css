@@ -5,7 +5,7 @@ body {
     font-style: normal;
     color: #ffff;
     background-color: #000000;
-    margin-top: 25px;
+    /* margin-top: 25px; */
 }
 
 h1,
@@ -69,3 +69,11 @@ svg:hover {
 }
 
 svg:focus {}
+
+.decorative-line {
+    width: 80%;
+    height: 4px;
+    background-color: #333;
+    border-radius: 2px;
+    margin: 10px auto;
+}
