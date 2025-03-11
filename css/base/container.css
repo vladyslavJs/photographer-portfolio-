@@ -1,21 +1,32 @@
 /* mobile verison */
+/* ГУМОВИЙ КОНТЕЙНЕР */
 .container {
-    max-width: 288px;
+    padding: 0 20px;
     margin: 0 auto;
+
+}
+
+@media screen and (min-width: 375px) {
+    .container {
+        width: 375px;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 /* tablet version */
 @media screen and (min-width: 768px) {
     .container {
-        max-width: 736px;
+        width: 736px;
+        padding: 0 16px;
     }
 }
 
 /* desktop version */
 @media screen and (min-width: 1158px) {
     .container {
-        max-width: 1158px;
-        padding: 0 15px;
-        
+        width: 1158px;
     }
-}
+} 
+
+/* КАСКАДНІСТЬ */
