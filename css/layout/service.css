@@ -1,0 +1,144 @@
+.service-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.service-content {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+}
+
+.images-service {
+    width: 100%;
+    max-width: 380px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 12px;
+    margin: 8px 0;
+}
+
+.cost-title {
+    margin-top: 12px;
+    font-size: 14px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.cost-information {
+    border: 1px solid white;
+    padding: 12px;
+    margin-top: 15px;
+}
+
+.cost-text {
+    font-weight: 100;
+    text-align: justify;
+    font-size: 12px;
+}
+
+.individual-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.individual-title {
+    font-size: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 15px;
+}
+
+.induvidual-shoot-list {
+    font-size: 12px;
+    list-style-type: disc;
+    padding: 16px;
+    font-weight: 200;
+    text-align: justify;
+}
+
+.induvidual-price-list {
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #ff0000;
+}
+
+.induvidual-price-list:hover {
+    background-color: #000000;
+    border: 1px solid white;
+    transform: scale(1.5, 1.8);
+    transition: 0.7s;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+    .service-container {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: row-reverse;
+        gap: 20px;
+    }
+
+    .images-service {
+        max-width: 400px;
+        height: 375px;
+    }
+}
+
+@media screen and (min-width: 1158px) {
+    .service-container {
+        gap: 30px;
+    }
+
+    .images-service {
+        max-width: 500px;
+        height: 500px;
+    }
+
+    .cost-title {
+        font-size: 24px;
+    }
+
+    .cost-text {
+        font-size: 16px;
+    }
+
+    .individual-container {
+        margin-top: 25px;
+    }
+
+    .individual-title {
+        font-size: 24px;
+    }
+
+    .induvidual-shoot-list {
+        font-size: 16px;
+    }
+
+    .induvidual-price-list {
+        margin-top: 25px;
+        font-size: 18px;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
