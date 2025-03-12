@@ -41,11 +41,17 @@
     justify-content: center;
     gap: 20px;
     margin-top: 15px;
-    list-style-type: disc;
+    /* list-style-type: disc; */
+    text-decoration: underline;
     font-size: 18px;
     font-family: "Allura", sans-serif;
     font-weight: 200;
 }
+
+.icon-map {
+    stroke: #ff0000;
+    fill: #ff0000;
+}   
 
 .main-location {
     padding: 15px;
