@@ -14,7 +14,7 @@
 .images-vision {
     width: 100%;
     max-width: 500px;
-    height: 500px;
+    height: 400px;
     object-fit: cover;
     border-radius: 12px;
 }
@@ -25,7 +25,8 @@
 }
 
 .vision-biography-text,
-.vision-philosophy-text {
+.vision-philosophy-text,
+.vision-philosophy-text-text {
     font-size: 14px;
     font-weight: 100;
     margin: 18px auto;
@@ -33,13 +34,17 @@
     font-size: 12px;
 }
 
-/* 📱 Медіа-запит для мобільних */
+/* 📱 Медіа-запит для планшетів */
 @media screen and (min-width: 768px) {
     .my-vision-container {
         display: flex;
         align-items: flex-start;
         flex-direction: row;
         gap: 20px;
+    }
+
+    .images-vision {
+        height: 500px;
     }
 }
 
@@ -59,6 +64,11 @@
     .vision-philosophy-text {
         font-size: 16px;
         font-weight: 600;
+    }
+
+    .vision-philosophy-text-text {
+        font-size: 16px;
+        font-weight: 200;
     }
 
 }
