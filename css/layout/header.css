@@ -10,7 +10,6 @@
     right: 0;
     background-color: #000000;
     color: #fff;
-    font-weight: 600;
 }
 
 .page-header {
@@ -25,7 +24,7 @@
 
 .logotype {
     display: flex;
-    align-items: center;
+    text-align: center;
     font-size: 18px;
     font-weight: 200;
     line-height: 1.29;
@@ -142,7 +141,7 @@
         display: flex;
         justify-content: center;
         gap: 20px;
-        font-weight: 600;
+        font-weight: 100;
     }
 
     .nav-menu a {
