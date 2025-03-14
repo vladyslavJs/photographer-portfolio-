@@ -22,21 +22,21 @@
 
 .cost-title {
     margin-top: 12px;
-    font-size: 14px;
+    font-size: 16px;
     text-align: center;
     text-transform: uppercase;
 }
 
 .cost-information {
-    border: 1px solid white;
+    border: 1px solid #fff;
     padding: 12px;
     margin-top: 15px;
 }
 
 .cost-text {
-    font-weight: 100;
+    font-weight: 300;
     text-align: justify;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .individual-container {
@@ -47,28 +47,34 @@
 }
 
 .individual-title {
-    font-size: 14px;
+    font-size: 18px;
     text-align: center;
     text-transform: uppercase;
     margin-top: 15px;
 }
 
 .induvidual-shoot-list {
-    font-size: 12px;
+    font-size: 14px;
     list-style-type: disc;
     padding: 16px;
-    font-weight: 200;
+    font-weight: 300;
     text-align: justify;
 }
 
 .induvidual-price-list {
-    font-size: 14px;
+    font-size: 16px;
     display: flex;
+    gap: 2px;
     justify-content: center;
     align-items: center;
     border-radius: 10px;
     padding: 10px;
     background-color: #ff0000;
+    color: #000000;
+}
+
+.span-price {
+    font-weight: 800;
 }
 
 .induvidual-price-list:hover {
@@ -129,16 +135,5 @@
     }
     
 }
-
-
-
-
-
-
-
-
-
-
-
-
+/* ------------- */
 
