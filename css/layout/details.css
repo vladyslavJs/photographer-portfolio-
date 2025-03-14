@@ -1,15 +1,23 @@
 .details-container {
     display: flex;
-    align-items: stretch;
-    gap: 25px;
+    flex-direction: column-reverse;
+
 }
 
 .details-content {
     text-align: justify;
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 4px;
 }
+
+.details-title {
+    font-size: 18px;
+    align-items: center;
+    text-align: center;
+}
+
+
 
 .details-list {
     list-style-type: disc;
