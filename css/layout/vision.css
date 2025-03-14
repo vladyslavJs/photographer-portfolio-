@@ -20,18 +20,17 @@
 }
 
 .frame-text {
-    border: 1px solid white;
+    border: 1px solid #fff;
     padding: 12px;
 }
 
 .vision-biography-text,
 .vision-philosophy-text,
 .vision-philosophy-text-text {
-    font-size: 14px;
-    font-weight: 100;
+    font-weight: 300;
     margin: 18px auto;
     text-align: justify;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 /* 📱 Медіа-запит для планшетів */
