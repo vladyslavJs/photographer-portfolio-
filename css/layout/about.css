@@ -4,10 +4,14 @@
 
 .about-title {
   text-transform: uppercase;
-  font-size: 16px;
+  font-size: 18px;
   text-align: center;
   line-height: 1.29;
-  letter-spacing: -0.03em;
+  letter-spacing: 0.03em;
+}
+
+.decorative-point {
+  color: #ff0000;
 }
 
 
