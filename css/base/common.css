@@ -68,7 +68,9 @@ svg:hover {
     fill: #ff0000;
 }
 
-svg:focus {}
+address {
+    font-style: normal;
+}
 
 .decorative-line {
     width: 80%;
