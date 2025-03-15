@@ -1,7 +1,6 @@
 .details-container {
     display: flex;
     flex-direction: column-reverse;
-
 }
 
 .details-content {
@@ -15,26 +14,33 @@
     font-size: 18px;
     align-items: center;
     text-align: center;
+    margin-top: 5px;
 }
-
-
 
 .details-list {
     list-style-type: disc;
     padding: 16px;
     font-weight: 200;
+    font-size: 14px;
 }
 
 .details-image {
-    width: 100%;
-    max-width: 600px;
+    max-width: 450px;
     height: 500px;
     object-fit: cover;
-    border-radius: 12px;
+    border-radius: 8px;
 }
 
 
-@media screen and (min-width: 768px) {}
+@media screen and (min-width: 768px) {
+    .details-container {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: row;
+        gap: 20px;
+    }
+
+}
 
 @media screen and (min-width: 1158px) {
     .details-title {
