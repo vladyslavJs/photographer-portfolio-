@@ -24,11 +24,15 @@
     padding: 12px;
 }
 
+.vision-philosophy-text-text {
+    font-style: italic;
+}
+
 .vision-biography-text,
 .vision-philosophy-text,
 .vision-philosophy-text-text {
     font-weight: 300;
-    margin: 18px auto;
+    margin: 10px auto;
     text-align: justify;
     font-size: 14px;
 }
