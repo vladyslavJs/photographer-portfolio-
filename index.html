@@ -32,8 +32,6 @@
     <div class="container page-header-container">
       <nav class="nav">
         <a class="logotype" href="./index.html">
-          <!-- iryna
-          <span class="logotype-span">ihnatenko</span> -->
           <svg class="logotype-icon" width="20" height="20" aria-label="logotype icon">
             <use href="images/sprite.svg#icon-camera"></use>
           </svg>
@@ -83,7 +81,6 @@
           <ul class="nav-list-mobile">
             <li><a href="#home">Home</a></li>
             <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#photobooks">Photobooks</a></li>
             <li><a href="#contact">Contact</a></li>
             <li><a href="#price">Price</a></li>
           </ul>
@@ -117,7 +114,7 @@
   </header>
 
   <main>
-    <section class="main-menu section">
+    <section class="main-menu section" id="home">
       <div class="container main-menu-container">
         <h1 class="main-title">Iryna Ihnatenko<span class="span">.</span></h1>
         <p class="main-subtitle">Photographer</p>
@@ -183,40 +180,39 @@
 
     <!-- SECTION -->
     <div class="decorative-line"></div>
-    <section class="service-section" id="service-section">
-      <div class="container service-container">
-        <img class="images-service" src="./images/background_images/ira_price_image.JPG" alt="Іконка" />
-        <div class="service-content">
-          <h3 class="cost-title">Your Story, My Lens: A Collaboration in Authenticity</h3>
-          <div class="cost-information">
-            <p class="cost-text">
-              When you come to me for a photoshoot, you seek my vision. I work in minimalist studios and choose natural
-              tones in clothing. I shoot without makeup or with minimal use of it. To achieve the best result, we
-              discuss
-              all details together, based on your preferences and my style. Your trust and willingness to collaborate at
-              all
-              stages of the shoot are extremely important
-            </p>
-          </div>
-          <div class="individual-container">
-            <h2 class="individual-title">Individual Photoshoot</h2>
-            <ul class="induvidual-shoot-list">
-              <li>consultation before the shoot, discussion of your request, assistance with posing and location
-                selection</li>
-              <li>duration of the shoot — 1/1.5 hours</li>
-              <li>25 photos with color correction and retouching</li>
-              <li>processing time — 1-2 weeks</li>
-              <li>during the shoot, we'll manage to capture 2-3 outfits</li>
-            </ul>
-            <p class="induvidual-price-list">Price: <span class="span-price">250</span>zł</p>
-          </div>
+    <div class="container service-container" id="price">
+      <img class="images-service" src="./images/background_images/ira_price_image.JPG" alt="Іконка" />
+      <div class="service-content">
+        <h3 class="cost-title">Your Story, My Lens: A Collaboration in Authenticity</h3>
+        <div class="cost-information">
+          <p class="cost-text">
+            When you come to me for a photoshoot, you seek my vision. I work in minimalist studios and choose natural
+            tones in clothing. I shoot without makeup or with minimal use of it. To achieve the best result, we
+            discuss
+            all details together, based on your preferences and my style. Your trust and willingness to collaborate at
+            all
+            stages of the shoot are extremely important
+          </p>
+        </div>
+        <div class="individual-container">
+          <h2 class="individual-title">Individual Photoshoot</h2>
+          <ul class="induvidual-shoot-list">
+            <li>consultation before the shoot, discussion of your request, assistance with posing and location
+              selection</li>
+            <li>duration of the shoot — 1/1.5 hours</li>
+            <li>25 photos with color correction and retouching</li>
+            <li>processing time — 1-2 weeks</li>
+            <li>during the shoot, we'll manage to capture 2-3 outfits</li>
+          </ul>
+          <p class="induvidual-price-list">Price: <span class="span-price">250</span>zł</p>
         </div>
       </div>
+    </div>
     </section>
 
     <div class="decorative-line"></div>
     <!-- SECTION -->
-    <section class="slider-section container">
+    <section class="slider-section container" id="portfolio">
       <h2 class="main-portfolio">Portfolio<span class="decorative-point">.</span></h2>
       <div class="slider">
         <div class="slider-item">
@@ -269,11 +265,16 @@
         </div>
       </div>
 
+      <section class="device-section" id="device-section">
+        <div class="container device-container">
+        </div>
+      </section>
+
       <div class="decorative-line"></div>
 
     </section>
     <!-- SECTION -->
-    <footer class="footer-block">
+    <footer class="footer-block" id="contact">
       <div class="container footer-container">
         <div class="text-footer-container">
           <h2 class="footer-maintext">
@@ -305,7 +306,6 @@
             </li>
           </ul>
         </div>
-
 
         <div class="footer-address">
           <h3 class="footer-title">Contact</h3>
