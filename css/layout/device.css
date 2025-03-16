@@ -1,0 +1,9 @@
+.device-section {
+    background-image: url(../../images/background_images/camera.jpeg);
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+}
+
