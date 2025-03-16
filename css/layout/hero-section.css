@@ -84,8 +84,8 @@
     }
 
     .icon-map {
-        stroke: red;
-        fill: red;
+        stroke: #ff0000;
+        fill: #ff0000;
     }
 }
 
@@ -95,6 +95,16 @@
     }
 
     .main-subtitle {
+        font-size: 36px;
+    }
+
+    .main-list {
+        font-size: 35px;
+    }
+
+    .main-location {
         font-size: 26px;
     }
+
+
 }
