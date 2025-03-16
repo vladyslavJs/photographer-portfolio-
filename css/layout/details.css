@@ -1,6 +1,7 @@
 .details-container {
     display: flex;
     flex-direction: column-reverse;
+    padding: 15px;
 }
 
 .details-content {
@@ -40,10 +41,29 @@
         gap: 20px;
     }
 
+    .details-title {
+        font-size: 22px;
+    }
+
 }
 
 @media screen and (min-width: 1158px) {
     .details-title {
         font-size: 36px;
+        text-align: start;
     }
+
+    .details-image {
+        max-width: 500px;
+        width: 600px;
+    }
+
+    .details-container {
+        gap: 30px;
+    }
+
+    .details-list {
+        font-size: 18px;
+    }
+
 }
