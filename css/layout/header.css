@@ -196,8 +196,7 @@
     
     .adress-info {
         flex-direction: row;
-        gap: 20px;
-        
+        gap: 20px;   
     }
 
     .adress-alignment {
