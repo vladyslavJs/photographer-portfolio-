@@ -1,0 +1,32 @@
+.backstage-container {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.video-class {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: center;
+    padding: 15px;
+}
+
+@media screen and (min-width: 768px) {
+    .video-class {
+        align-items: flex-start;
+        flex-direction: row;
+        gap: 15px;
+    }
+    
+    .video-class video {
+        height: 400px;
+    }
+}
+
+
+@media screen and (min-width: 1158px) {
+    .video-class video {
+        height: 600px;
+    }
+}
