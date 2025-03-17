@@ -38,8 +38,7 @@
 
 
 @media screen and (min-width: 768px) {
-    .details-container {
-        display: flex;
+    .details-container {    
         align-items: flex-start;
         flex-direction: row;
         gap: 20px;
@@ -50,9 +49,8 @@
     }
 
     .details-list {
-        font-size: 18px;
+        /* font-size: 16px; */
     }
-
 }
 
 @media screen and (min-width: 1158px) {
