@@ -69,7 +69,7 @@
 }
 
 .mobile-menu-close-icon {
-    stroke: transparent;
+    stroke: #fff;
 }
 
 .mobile-menu-container {
@@ -79,7 +79,8 @@
     height: 100%;
     padding: 30px;
     border-radius: 20px;
-    background-color: #808080;
+    background-color: #000000;
+    border: 1px solid white;
 }
 
 .nav-list-mobile {
@@ -106,10 +107,18 @@
     border: 1px solid #000000;
 }
 
+.nav-social-icon {
+    stroke: #ff0000;
+    fill: #fff;
+}
+
 .nav-text {
     text-align: center;
     font-family: "Allura", sans-serif;
-    font-size: 18px;
+    font-size: 22px;
+    line-height: 1.4;
+    letter-spacing: 0.05em;
+    color: #ff0000;
 }
 
 /* -------------------- */
@@ -142,6 +151,8 @@
         justify-content: center;
         gap: 20px;
         font-weight: 600;
+        line-height: 1.4;
+        letter-spacing: 0.05em;
     }
 
     .nav-menu a {
@@ -169,6 +180,8 @@
         display: flex;
         align-items: center;
         gap: 6px;
+        line-height: 1.4;
+        letter-spacing: 0.05em;
     }
 
     .nav {
