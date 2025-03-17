@@ -22,10 +22,14 @@
 .frame-text {
     border: 1px solid #fff;
     padding: 12px;
+    line-height: 1.4;
+    letter-spacing: 0.05em;   
 }
 
 .vision-philosophy-text-text {
     font-style: italic;
+    line-height: 1.4;
+    letter-spacing: 0.05em;
 }
 
 .vision-biography-text,
@@ -35,6 +39,8 @@
     margin: 10px auto;
     text-align: justify;
     font-size: 14px;
+    line-height: 1.4;
+    letter-spacing: 0.05em;
 }
 
 /* 📱 Медіа-запит для планшетів */
