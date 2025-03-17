@@ -4,7 +4,6 @@
         url(../../images/background_images/main-background.JPG);
     text-align: center;
     height: 800px;
-
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -22,12 +21,16 @@
 .main-title {
     font-size: 26px;
     margin: 15px;
+    line-height: 1.4;
+    letter-spacing: 0.05em;
 }
 
 .main-subtitle {
     color: #808080;
     text-transform: uppercase;
     font-family: "Yeseva One", serif;
+    line-height: 1.4;
+    letter-spacing: 0.05em;
 }
 
 .span {
@@ -40,16 +43,18 @@
     justify-content: center;
     gap: 20px;
     margin-top: 15px;
-    text-decoration: underline;
+    /* text-decoration: underline; */
     font-size: 18px;
     font-family: "Allura", sans-serif;
     font-weight: 200;
+    line-height: 1.4;
+    letter-spacing: 0.05em;
 }
 
 .main-list:hover,
 .main-list:focus {
     color: #ff0000;
-    transform: scale(1.5, 1.8);
+    transform: scale(1.2, 1.4);
     transition: 0.7s;
     cursor: pointer;
 }
@@ -67,6 +72,9 @@
     gap: 8px;
     margin-top: 25px;
     font-weight: 200;
+    line-height: 1.4;
+    letter-spacing: 0.05em;
+    cursor: pointer;
 }
 
 
@@ -76,7 +84,7 @@
     }
 
     .main-title {
-        font-size: 44px;
+        font-size: 36px;
     }
 
     .main-subtitle {
@@ -91,19 +99,19 @@
 
 @media screen and (min-width: 1158px) {
     .main-title {
-        font-size: 66px;
+        font-size: 58px;
     }
 
     .main-subtitle {
-        font-size: 36px;
+        font-size: 38px;
     }
 
     .main-list {
-        font-size: 35px;
+        font-size: 25px;
     }
 
     .main-location {
-        font-size: 26px;
+        font-size: 16px;
     }
 
 
