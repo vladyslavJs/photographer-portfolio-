@@ -1,5 +1,8 @@
 .device-section {
-    background-image: url(../../images/background_images/camera-image-1.avif);
+    background-image: linear-gradient(to bottom,
+            rgba(46, 47, 66, 0.7),
+            rgba(46, 47, 66, 0.7)),
+    url(../../images/background_images/camera-image-1.avif);
     height: 600px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -47,9 +50,6 @@
 
 
 
-
-
-
 @media screen and (min-width: 768px) {
 
 
@@ -59,7 +59,7 @@
 }
 
 @media screen and (min-width: 1158px) {
-    .device-section {
+    /* .device-section {
         background-position: -70% center;
-    }
+    } */
 }
